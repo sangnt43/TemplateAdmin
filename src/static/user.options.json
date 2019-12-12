@@ -1,0 +1,25 @@
+{
+    "userDropDownManager": [{
+            "type": "action",
+            "text": "Profile",
+            "url": ""
+        },
+        {
+            "type": "action",
+            "text": "Setting",
+            "url": ""
+        },
+        {
+            "type": "text",
+            "text": "Header"
+        },
+        {
+            "type": "action",
+            "text": "Action",
+            "url": ""
+        },
+        {
+            "type": "divider"
+        }
+    ]
+}

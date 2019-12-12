@@ -33,6 +33,7 @@ import {PageTitleComponent} from './Layout/Components/page-title/page-title.comp
 import {HeaderComponent} from './Layout/Components/header/header.component';
 import {SearchBoxComponent} from './Layout/Components/header/elements/search-box/search-box.component';
 import {UserBoxComponent} from './Layout/Components/header/elements/user-box/user-box.component';
+import {UserImageComponent} from './Layout/Components/header/elements/user-image/user-image.component';
 
 // SIDEBAR
 
@@ -123,6 +124,7 @@ const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
     HeaderComponent,
     SearchBoxComponent,
     UserBoxComponent,
+    UserImageComponent,
 
     // SIDEBAR
 

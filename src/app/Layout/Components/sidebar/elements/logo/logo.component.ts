@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {logo} from 'src/static/options.json';
 
 @Component({
   selector: 'app-logo',
@@ -6,7 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LogoComponent implements OnInit {
 
-  constructor() { }
+  public logo;
+  constructor() {
+    this.logo = logo
+  }
 
   ngOnInit() {
   }

@@ -1,0 +1,46 @@
+{
+    "sidebarData": [{
+            "name": "Bootstrap Components"
+        },
+        {
+            "id": "elementsMenu",
+            "name": "Elements",
+            "icon": "pe-7s-diamond",
+            "child": [{
+                    "name": "Standard Buttons",
+                    "url": "/elements/buttons-standard"
+                },
+                {
+                    "name": "Dropdowns",
+                    "url": "/elements/dropdowns"
+                },
+                {
+                    "name": "Icons",
+                    "url": "/elements/icons"
+                },
+                {
+                    "name": "Cards",
+                    "url": "/elements/cards"
+                }
+            ]
+        },
+        {
+            "id": "componentsMenu",
+            "name": "Components",
+            "icon": "pe-7s-car",
+            "child": [{
+                "name": "Tabs",
+                "url": "/components/tabs"
+            }]
+        },
+        {
+            "name": "Charts"
+        },
+        {
+            "name": "ChartJS",
+            "icon": "pe-7s-graph2",
+            "url": "/charts/chartjs"
+        }
+    ],
+    "logo": "/assets/images/logo-inverse.png"
+}
