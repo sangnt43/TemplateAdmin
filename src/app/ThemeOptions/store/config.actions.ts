@@ -12,16 +12,16 @@ export class ConfigActions {
   ) { }
 
   getConfig() {
-    this.ngRedux.dispatch({
-      type: ConfigActions.CONFIG_GET,
-    });
+    // this.ngRedux.dispatch({
+    //   type: ConfigActions.CONFIG_GET,
+    // });
   }
 
   updateConfig(config): void {
-    this.ngRedux.dispatch({
-      type: ConfigActions.CONFIG_UPDATE,
-      payload: config
-    });
+    // this.ngRedux.dispatch({
+    //   type: ConfigActions.CONFIG_UPDATE,
+    //   payload: config
+    // });
   }
 
 }
